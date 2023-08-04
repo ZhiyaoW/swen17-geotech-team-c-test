@@ -7,4 +7,3 @@ driver.get('https://swen17-geotech-team-c-frontend.vercel.app/')
 
 time.sleep(3)
 
-driver.close()
