@@ -2,12 +2,12 @@ import time
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 driver = webdriver.Chrome()
-
+driver.maximize_window()
 driver.get('https://swen17-geotech-team-c-frontend.vercel.app/')
 
 time.sleep(3)
-driver.find_element(By.XPATH, "/html/body/div/div/header/ul/li[3]").click()
+driver.find_element(By.XPATH, "/html/body/div/div/div/div/aside/div[1]/ul/li[3]").click()
 time.sleep(2)
-driver.find_element(By.XPATH, "/html/body/div/div/header/ul/li[1]").click()
+driver.find_element(By.XPATH, "/html/body/div/div/div/div/aside/div[1]/ul/li[1]").click()
 time.sleep(2)
 driver.close()
