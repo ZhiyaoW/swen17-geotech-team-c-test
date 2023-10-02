@@ -6,6 +6,6 @@ driver.maximize_window()
 driver.get('https://swen17-geotech-team-c-frontend.vercel.app/')
 
 time.sleep(3)
-driver.find_element(By.XPATH, "/html/body/div/div/div/div/aside/div[1]/ul/li[4]").click()
+driver.find_element(By.XPATH, "/html/body/div/section/section/section/aside/div[1]/ul/li[4]/span[1]").click()
 time.sleep(3)
 driver.close()
